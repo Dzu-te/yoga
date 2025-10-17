@@ -332,8 +332,16 @@ img {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  align-items: flex-end;
 
+}
+
+.ul_description_values {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .target-description-company-item {
