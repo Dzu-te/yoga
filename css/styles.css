@@ -193,14 +193,14 @@ img {
   /* MEDIA SCREEN MOBILE */
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
-    url(../images/bgi/Hero-bg_mob.jpg);
+    url(../images/bgi/bgi-mob.webp);
 }
 
 @media only screen and (min-resolution: 192dpi) {
   .hero_section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../images/bgi/Hero-bg_mob@2x.jpg);
+      url(../images/bgi/bgi-mob@2x.webp);
   }
 }
 
@@ -211,7 +211,7 @@ img {
   .hero_section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../images/bgi/Hero-bg_tab.jpg);
+      url(../images/bgi/bgi-tab.webp);
   }
 }
 
@@ -219,7 +219,7 @@ img {
   .hero_section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../images/bgi/Hero-bg_tab@2x.jpg);
+      url(../images/bgi/bgi-tab@2x.webp);
   }
 }
 
@@ -230,7 +230,7 @@ img {
   .hero_section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../images/bgi/Hero-bg_desktop.jpg);
+      url(../images/bgi/bgi-desk.webp);
   }
 }
 
@@ -238,7 +238,7 @@ img {
   .hero_section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../images/bgi/Hero-bg_desktop@2x.jpg);
+      url(../images/bgi/bgi-desk@2x.webp);
   }
 }
 
