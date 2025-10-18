@@ -181,6 +181,16 @@ img {
   color: #404bbf;
 }
 
+.health_first_text {
+  margin-bottom: 0;
+}
+
+.tick-health-text {
+  font-family: Georgia, sans-serif;
+  font-size: 70px;
+  text-align: center;
+}
+
 /* hero section */
 
 .hero_section {
