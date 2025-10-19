@@ -21,6 +21,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'TenorSans', sans-serif;
   color: #434455;
@@ -115,10 +119,6 @@ img {
 .logo_header {
   width: 100px;
 }
-
-/* .logo_studio {
-  color: #eeea13;
-} */
 
 .header_ul_address {
   display: flex;
@@ -589,7 +589,7 @@ img {
 /* footer */
 
 .footer {
-  background-color: #2e2f42;
+  background-color: #595959;
   padding: 100px 0;
 }
 
