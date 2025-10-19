@@ -1165,7 +1165,7 @@ input {
 
   .menu-mobile {
     position: absolute;
-    top: 110%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     width: 408px;
