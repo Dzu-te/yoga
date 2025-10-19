@@ -717,7 +717,7 @@ img {
   pointer-events: auto;
 }
 
-/* .modal_field {
+.modal_field {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -730,28 +730,6 @@ img {
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
-} */
-
-.modal_field {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  width: 408px;
-  min-height: 584px;
-  background: #fcfcfc;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px 24px;
-  margin: 20px 0;
-  /* Добавьте отступы для прокрутки */
-  max-height: 90vh;
-  /* Ограничение высоты */
-  overflow-y: auto;
-  /* Прокрутка внутри модального окна */
 }
 
 .modal_button {
@@ -1179,8 +1157,6 @@ input {
     overflow-y: scroll;
   }
 
-  .mobile_menu_outer {}
-
   .is-open {
     opacity: 1;
     visibility: visible;
@@ -1189,7 +1165,7 @@ input {
 
   .menu-mobile {
     position: absolute;
-    top: 50%;
+    top: 110%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     width: 408px;
