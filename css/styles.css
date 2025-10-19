@@ -46,7 +46,7 @@ body {
   overflow: hidden;
 }
 
-/* NAVIGATION */
+
 
 header {
   font-family: 'TenorSans', sans-serif;
@@ -76,7 +76,7 @@ img {
   height: auto;
 }
 
-/* section header */
+
 .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -173,7 +173,7 @@ img {
   text-align: center;
 }
 
-/* hero section */
+
 
 .hero_section {
   background-color: #2e2f42;
@@ -182,7 +182,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* MEDIA SCREEN MOBILE */
+
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
     url(../images/bgi/bgi-mob.webp);
@@ -196,9 +196,9 @@ img {
   }
 }
 
-/* END MEDIA SCREEN MOBILE */
 
-/* TABLET SCREEN MOBILE */
+
+
 @media screen and (min-width: 768px) and (max-width: 1157.98px) {
   .hero_section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -215,9 +215,9 @@ img {
   }
 }
 
-/* END TABLET SCREEN MOBILE */
 
-/* DESKTOP SCREEN MOBILE */
+
+
 @media screen and (min-width: 1158px) {
   .hero_section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -234,7 +234,7 @@ img {
   }
 }
 
-/* END DESKTOP SCREEN MOBILE */
+
 
 .hero_section_one {
   font-size: 56px;
@@ -274,15 +274,15 @@ img {
   background-color: #404bbf;
 }
 
-/* END hero section */
 
-/* srction first description */
+
+
 
 .section_description_company {
   padding: 120px 0;
 }
 
-/* NEW SITE STYLE description company*/
+
 
 .project_mission_text {
   font-size: 56px;
@@ -397,7 +397,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* section second our team */
+
 
 .our_team_socials {
   display: flex;
@@ -431,7 +431,7 @@ img {
   fill: #f4f4fd;
 }
 
-/* section third our portfolio */
+
 
 .section_three_our_portfolio {
   padding: 120px 0;
@@ -482,7 +482,7 @@ img {
   text-align: start;
 }
 
-/* footer */
+
 
 .footer {
   background-color: #595959;
@@ -608,7 +608,7 @@ img {
   fill: #ffffff;
 }
 
-/* MODAL FIELD */
+
 
 
 .is-open {
@@ -621,14 +621,14 @@ input {
   outline: none;
 }
 
-/* MEDIA */
+
 
 @media screen and (min-width: 320px) and (max-width: 767.98px) {
   .container {
     max-width: 320px;
   }
 
-  /* HEADER*/
+
 
   .header_inner {
     padding: 0 16px;
@@ -652,9 +652,9 @@ input {
     display: none;
   }
 
-  /* END HEADER*/
 
-  /* HERO SECTION */
+
+
   .hero_section {
     width: 100%;
     padding: 72px 0;
@@ -679,9 +679,9 @@ input {
 
 
 
-  /*END HERO SECTION */
 
-  /* section 1 description company */
+
+
   .section_description_company {
     padding: 40px 16px;
   }
@@ -728,14 +728,10 @@ input {
     font-weight: 400;
   }
 
-  /* END section 1 description company */
-
-  /* Section 2 Our team */
 
 
-  /* END Section 2 Our team */
 
-  /* section 3 our portfolio */
+
   .section_three_our_portfolio {
     padding: 40px 16px;
     padding-top: 0;
@@ -772,9 +768,7 @@ input {
   }
 
 
-  /* END section 3 our portfolio */
 
-  /* footer */
 
   .footer {
     padding: 96px 0;
@@ -830,9 +824,8 @@ input {
     margin: 0 auto;
   }
 
-  /* END footer */
 
-  /* DROP DOWN MENU MOBILE*/
+
   .container_menu_mobile {
     position: fixed;
     display: flex;
@@ -927,17 +920,8 @@ input {
     padding: 0;
   }
 
-  /* END DROP DOWN MENU MOBILE */
-
-  /*  modal field */
 
 
-
-
-
-
-
-  /* END  modal field */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157.98px) {
@@ -966,7 +950,7 @@ input {
     display: none;
   }
 
-  /* HEADER*/
+
 
   .header_inner {
     padding: 16px;
@@ -998,9 +982,8 @@ input {
     padding: 0;
   }
 
-  /* END HEADER*/
 
-  /* HERO SECTION */
+
 
   .hero_section {
     padding: 112px 0;
@@ -1011,10 +994,6 @@ input {
   }
 
 
-
-  /*END HERO SECTION */
-
-  /* section 1 description company */
 
   .ul_description_company {
     row-gap: 72px;
@@ -1044,13 +1023,10 @@ input {
     font-weight: 500;
   }
 
-  /* END section 1 description company */
 
-  /* Section 2 Our team */
 
-  /* END Section 2 Our team */
 
-  /* section 3 our portfolio */
+
   .ul_our_portfolio {
     justify-content: center;
     row-gap: 72px;
@@ -1063,9 +1039,6 @@ input {
 
 
 
-  /* END section 3 our portfolio */
-
-  /* section footer */
 
   .footer_container {
     column-gap: 24px;
@@ -1084,7 +1057,7 @@ input {
     margin-right: 80px;
   }
 
-  /* END section footer */
+
 }
 
 @media (min-width: 1158px) {
