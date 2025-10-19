@@ -949,7 +949,7 @@ input {
   .hero_section_one {
     margin: 0 auto;
     margin-bottom: 72px;
-    font-size: 36px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
@@ -959,18 +959,44 @@ input {
     max-width: 210px;
   }
 
+  .hero_section_span {
+    font-size: 12px;
+  }
+
 
 
   /*END HERO SECTION */
 
   /* section 1 description company */
   .section_description_company {
-    padding: 120px 16px;
+    padding: 40px 16px;
+  }
+
+  .section_description_company-child {
+    padding-top: 0;
+  }
+
+  .project_mission_text {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 36px;
+  }
+
+  .project_mission_text::after {
+    display: none;
+  }
+
+  .project_mission_text_item {
+    font-size: 16px;
+    margin-bottom: 24px;
   }
 
   .ul_description_company {
-    gap: 72px;
+
+    flex-direction: column;
   }
+
+
 
   .li_description_company {
     flex-basis: 100%;
@@ -982,7 +1008,7 @@ input {
 
   .description_company_title {
     text-align: center;
-    font-size: 36px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 1.111;
     letter-spacing: 0.02em;
@@ -1014,7 +1040,8 @@ input {
 
   /* section 3 our portfolio */
   .section_three_our_portfolio {
-    padding: 120px 16px;
+    padding: 40px 16px;
+    padding-top: 0;
   }
 
   .ul_our_portfolio {
@@ -1029,6 +1056,28 @@ input {
   .op_img_text {
     display: none;
   }
+
+  .tick-health-text {
+    margin: 0;
+    color: #37ae0f;
+  }
+
+  .health_first_text {
+    margin-top: 0;
+  }
+
+  .core_values_text::after {
+    width: 100%;
+  }
+
+  .ul_description_values {
+    justify-content: center;
+  }
+
+  .target-description-company-item {
+    flex-basis: calc((100% - 72px) / 2);
+  }
+
 
   /* END section 3 our portfolio */
 
@@ -1230,6 +1279,10 @@ input {
   .section_three_our_portfolio,
   .footer {
     padding: 0;
+  }
+
+  .section_description_company-child {
+    padding-top: 0;
   }
 
   .container_menu_mobile {
