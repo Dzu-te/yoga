@@ -171,7 +171,7 @@ img {
   font-family: Georgia, sans-serif;
   font-size: 70px;
   text-align: center;
-  color: #37ae0f;
+  color: #42C0D6;
 }
 
 
@@ -237,7 +237,8 @@ img {
 
 
 
-.hero_section_one {
+.hero_section_one,
+.hero_section_span {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -245,11 +246,13 @@ img {
   color: #ffffff;
   max-width: 1747px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
-.hero_section_span {
-  font-size: 20px;
-}
+/* .hero_section_span {
+  font-size: 56px;
+
+} */
 
 .button {
   background-color: #4d5ae5;
@@ -283,11 +286,15 @@ img {
   padding: 120px 0;
 }
 
+.section_description_company-child {
+  padding-top: 0;
+}
+
 
 
 .project_mission_text {
   font-size: 56px;
-  color: #37ae0f;
+  color: #42C0D6;
   position: relative;
   margin-bottom: 90px;
 }
@@ -301,7 +308,7 @@ img {
   top: 80px;
   transform: translateX(-50%);
   height: 4px;
-  background-color: #37ae0f;
+  background-color: #42C0D6;
   border-radius: 2px;
 }
 
@@ -347,6 +354,11 @@ img {
 
 .li_description_company {
   flex-basis: calc((100% - 72px) / 3);
+  border: 1px solid #e7e9fc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .core_values_item {
@@ -356,7 +368,7 @@ img {
 }
 
 .core_values_text:hover {
-  color: #37ae0f;
+  color: #42C0D6;
 }
 
 .core_values_text::after {
@@ -381,12 +393,12 @@ img {
 }
 
 .core_values_text:hover::after {
-  background-color: #37ae0f;
+  background-color: #42C0D6;
 }
 
 .description_company_title {
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 26px;
   line-height: 1.2;
   letter-spacing: 00.02em;
   color: #2e2f42;
@@ -436,6 +448,10 @@ img {
 
 .section_three_our_portfolio {
   padding: 120px 0;
+}
+
+.section_three_our_portfolio {
+  padding-top: 0;
 }
 
 .ul_our_portfolio {
@@ -1008,12 +1024,12 @@ input {
   }
 
   .description_company_title {
-    font-size: 36px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.111;
     letter-spacing: 0.02px;
-    text-transform: capitalize;
+
   }
 
   .core_values_text::after {
@@ -1023,10 +1039,6 @@ input {
   .p_descripion_company {
     font-weight: 500;
   }
-
-
-
-
 
   .ul_our_portfolio {
     justify-content: center;
