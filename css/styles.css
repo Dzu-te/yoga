@@ -128,7 +128,7 @@ img {
 .nav_header_link {
   display: inline-block;
   color: #2e2f42;
-  font-size: 16px;
+  font-size: 26px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -170,22 +170,34 @@ img {
   font-size: 70px;
   text-align: center;
   color: #42C0D6;
+  margin-top: 0;
 }
 
-.hero_section {
+/* .hero_section {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 188px 0;
   width: 100%;
   padding: 50px 50px 0 50px;
-}
+} */
 
-.bgi-wrapper {
+/* .bgi-wrapper {
   padding: 188px 0;
   background-repeat: no-repeat;
   background-position: left;
   width: 50%;
+  background-image: url(../images/bgi/logo-grey.svg);
+} */
+
+.hero_section {
+  /* background-color: #2e2f42; */
+  padding: 130px 150px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  /* MEDIA SCREEN MOBILE */
   background-image: url(../images/bgi/logo-grey.svg);
 }
 
@@ -234,9 +246,11 @@ img {
 
 .project_mission_text {
   font-size: 56px;
-  color: #42C0D6;
+  /* color: #42C0D6; */
+  color: #4ac99d;
   position: relative;
   margin-bottom: 90px;
+  margin-top: 0;
 }
 
 .project_mission_text::after {
@@ -248,14 +262,22 @@ img {
   top: 80px;
   transform: translateX(-50%);
   height: 4px;
-  background-color: #42C0D6;
+  /* background-color: #42C0D6; */
+  background-color: #4ac99d;
   border-radius: 2px;
 }
 
-.project_mission_text,
-.project_mission_text_item {
+.project_mission_text {
   text-align: center;
+  text-transform: uppercase;
 }
+
+
+.project_mission_text_item {
+  text-align: start;
+}
+
+
 
 .project_mission_text_item {
   font-size: 22px;
@@ -341,6 +363,7 @@ img {
   letter-spacing: 00.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .p_descripion_company {
@@ -613,11 +636,14 @@ input {
   .hero_section {
     width: 100%;
     flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-inline: 20px;
   }
 
   .bgi-wrapper {
     width: 110%;
-    padding: 90px;
+    padding: 0 0 40px 0;
     background-position: center;
   }
 
@@ -933,14 +959,12 @@ input {
 
   .nav_header_link {
     padding: 24px 0;
+    font-size: 18px;
   }
 
   .a_address {
     padding: 0;
   }
-
-
-
 
   .hero_section {
     padding: 112px 0;
@@ -982,6 +1006,10 @@ input {
     line-height: 1.111;
     letter-spacing: 0.02px;
 
+  }
+
+  .project_mission_text::after {
+    display: none;
   }
 
   .core_values_text::after {
